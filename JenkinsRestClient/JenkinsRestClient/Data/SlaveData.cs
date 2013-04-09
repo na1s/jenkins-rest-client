@@ -4,5 +4,6 @@ namespace JenkinsRestClient.Data
     {
         public string DisplayName { get; set; }
         public bool Offline { get; set; }
+        public int NumExecutors { get; set; }
     }
 }

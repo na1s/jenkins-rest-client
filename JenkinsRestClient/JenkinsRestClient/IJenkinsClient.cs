@@ -8,7 +8,7 @@ namespace JenkinsRestClient
         IEnumerable<Job> GetJobs();
         JenkinsData GetJenkinsData();
         void StartJob(Job job);
-        IEnumerable<SlaveData> GetAllSlaves();
+        IEnumerable<SlaveData> GetSlaves();
         JobDetail GetJobDetails(Job job);
         JenkinsComputerData GetComputerData();
     }

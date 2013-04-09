@@ -29,7 +29,7 @@ namespace JenkinsRestClient
             return _server.Get<JobDetail>("/job/" + job.Name + "/api/json");
         }
 
-        public IEnumerable<SlaveData> GetAllSlaves()
+        public IEnumerable<SlaveData> GetSlaves()
         {
             return GetComputerData().Computer;
         }
