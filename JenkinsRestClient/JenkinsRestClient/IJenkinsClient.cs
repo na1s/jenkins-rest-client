@@ -10,5 +10,6 @@ namespace JenkinsRestClient
         void StartJob(Job job);
         IEnumerable<SlaveData> GetAllSlaves();
         JobDetail GetJobDetails(Job job);
+        JenkinsComputerData GetComputerData();
     }
 }

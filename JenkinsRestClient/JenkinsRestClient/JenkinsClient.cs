@@ -41,7 +41,7 @@ namespace JenkinsRestClient
             return _server.Get<JenkinsData>("/api/json");
         }
 
-        private JenkinsComputerData GetComputerData()
+        public JenkinsComputerData GetComputerData()
         {
             return _server.Get<JenkinsComputerData>("/computer/api/json");
         }
